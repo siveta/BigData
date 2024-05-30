@@ -1,8 +1,11 @@
 # Big Data Task 2
 
+
+The repository in DockerHub : https://hub.docker.com/repository/docker/siveta/iris-classification/general \
+Docker image tag : siveta/iris-classification
+
+
 The goal of this project is to run a Python script on Docker Container.
-
-
 The Dockerfile sets up a container environment with all necessary dependencies to run the model.py script. It includes instructions to copy the script and dependencies into the container, install the required packages, and execute the script.
 
 ## Project Description:
@@ -55,8 +58,4 @@ Pull the Docker image:
 
     docker pull siveta/iris-classification
 
-    
 
-The repository in DockerHub : https://hub.docker.com/repository/docker/siveta/iris-classification/general
-
-Docker image tag : siveta/iris-classification
